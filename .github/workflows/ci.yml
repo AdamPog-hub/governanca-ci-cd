@@ -18,7 +18,7 @@ jobs:
 
       - name: Verificar arquivo principal
         run: |
-          test -f arquivo-inexistente.html
+          test -f index.html
           echo "index.html encontrado!"
 
       - name: Finalizar validação
